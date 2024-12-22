@@ -1,0 +1,15 @@
+<h2>Comparing Kotlin Data Class Objects</h2>
+<div class="step-text">
+<p>Consider the following Kotlin code snippet:</p><pre><code class="language-kotlin">data class User(val name: String, val age: Int)
+
+fun main() {
+    val user1 = User("John", 25)
+    val user2 = User("John", 25)
+    val user3 = user1
+
+    println(user1 == user2)
+    println(user1 === user2)
+    println(user1 == user3)
+    println(user1 === user3)
+}</code></pre><p>Which of the following statements regarding the output of the snippet are correct?</p>
+</div>
